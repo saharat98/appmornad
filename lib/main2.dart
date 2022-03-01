@@ -67,7 +67,7 @@ class _SecondPageState extends State<SecondPage> {
           print('chack');
           return Scaffold(
             backgroundColor: Colors.grey[200],
-            body: Center(
+            body: SingleChildScrollView(
               child: Column(
                 key: _formKey,
 
